@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#pinkboard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 2; 
+}
+
+h1 {
+    color: #F075AA;
+    margin: 0; 
+    font-size: 2rem; 
+}
